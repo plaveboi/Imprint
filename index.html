@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
     <title>Impressum</title>
+    
     <style>
         :root {
-            --bg-color: #010403; /* Tiefer, dunklerer Hintergrund */
-            --card-bg: rgba(255, 255, 255, 0.03); /* Glassmorphism Card */
+            --bg-color: #010403;
+            --card-bg: rgba(255, 255, 255, 0.03);
             --primary-green: #00f5a0; 
             --secondary-green: #00d9f5; 
-            --gradient-1: #00f5a01a; /* Transparentes Grün */
-            --gradient-2: #00d9f51a; /* Transparentes Blau-Grün */
+            --gradient-1: #00f5a01a;
+            --gradient-2: #00d9f51a;
             --text-main: #e0e0e0;
             --text-muted: #a0a0a0;
             --border: rgba(255, 255, 255, 0.1);
@@ -26,7 +31,6 @@
 
         body {
             background-color: var(--bg-color);
-            /* Schönerer, dynamischer Hintergrund mit radialen Gradienten */
             background-image: 
                 radial-gradient(circle at 10% 20%, var(--gradient-1) 0%, transparent 40%),
                 radial-gradient(circle at 90% 80%, var(--gradient-2) 0%, transparent 40%),
